@@ -2,15 +2,14 @@ package com.anonymize.demo.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Set;
 
 @ToString
 @Entity(name = "anon_method")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
 @Builder
 public class Method {
     @Id

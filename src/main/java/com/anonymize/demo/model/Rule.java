@@ -16,6 +16,7 @@ public class Rule {
     private String rule_name;
     private String table_name;
     private String column_name;
+    private String pk_column_name;
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "fk_anon_method_id")
     private Method method;
