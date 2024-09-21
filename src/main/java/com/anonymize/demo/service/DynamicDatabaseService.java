@@ -17,6 +17,11 @@ public class DynamicDatabaseService {
         jdbcTemplate.execute(query);
     }
 
+    //update query
+    public void updateQuery(String query) {
+        jdbcTemplate.update(query);
+    }
+
     // Example for fetching results
     public List<Object> queryForList(String query) {
         //return jdbcTemplate.queryForList(query);
