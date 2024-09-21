@@ -21,4 +21,5 @@ public class Rule {
     @JoinColumn(name = "fk_anon_method_id")
     private Method method;
 
+
 }
