@@ -1,0 +1,64 @@
+CREATE TABLE person (
+    ID INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    phone_number VARCHAR(20),
+    full_address VARCHAR(255),
+    Adhaar_CARD VARCHAR(12),
+	PAN VARCHAR2(50)
+);
+
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (1, 'John Doe', 25, '123-456-7890', '123 Main St, Anytown, USA', '123456789012', 'ABCDE1234F');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (2, 'Jane Smith', 30, '987-654-3210', '456 Elm St, Othertown, USA', '987654321012', 'FGHIJ2345G');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (3, 'Alice Johnson', 28, '555-123-4567', '789 Maple Ave, Sometown, USA', '234567890123', 'KLMNO3456H');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (4, 'Bob Brown', 35, '222-333-4444', '321 Oak St, Yourtown, USA', '345678901234', 'PQRST4567J');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (5, 'Charlie Davis', 40, '666-777-8888', '654 Pine St, Theirhouse, USA', '456789012345', 'UVWXY5678K');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (6, 'Diana Evans', 22, '444-555-6666', '159 Cedar St, Thistown, USA', '567890123456', 'ABCDE6789L');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (7, 'Edward Frank', 31, '321-654-9870', '753 Birch St, Thatplace, USA', '678901234567', 'FGHIJ7890M');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (8, 'Fiona Green', 29, '111-222-3333', '159 Walnut St, Elsewhere, USA', '789012345678', 'KLMNO8901N');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (9, 'George Harris', 26, '888-999-0000', '753 Chestnut St, Anywhere, USA', '890123456789', 'PQRST9012P');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (10, 'Hannah White', 34, '444-555-7777', '456 Spruce St, NoWhere, USA', '901234567890', 'UVWXY0123Q');
+
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (11, 'Ian King', 24, '777-888-9999', '258 Ash St, Somecity, USA', '012345678901', 'ABCDE1234R');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (12, 'Julia Lee', 29, '333-444-5555', '159 Oak St, Otherplace, USA', '123456789012', 'FGHIJ2345S');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (13, 'Kevin Martinez', 32, '222-111-0000', '654 Elm St, Hometown, USA', '234567890123', 'KLMNO3456T');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (14, 'Laura Nelson', 27, '666-777-8888', '321 Maple St, Yonder, USA', '345678901234', 'PQRST4567U');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (15, 'Mike Connor', 33, '999-888-7777', '987 Pine St, Faraway, USA', '456789012345', 'UVWXY5678V');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (16, 'Nina Parker', 23, '555-444-3333', '654 Cedar St, Somewhere, USA', '567890123456', 'ABCDE6789W');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (17, 'Oscar Quinn', 36, '222-333-4444', '258 Birch St, Overthere, USA', '678901234567', 'FGHIJ7890X');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (18, 'Paula Roberts', 29, '444-555-6666', '789 Chestnut St, Nextdoor, USA', '789012345678', 'KLMNO8901Y');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (19, 'Quincy Smith', 37, '111-222-3333', '159 Spruce St, Before, USA', '890123456789', 'PQRST9012Z');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (20, 'Rachel Taylor', 28, '555-666-7777', '321 Walnut St, After, USA', '901234567890', 'UVWXY0123A');
+
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (21, 'Steve Underwood', 31, '777-888-9999', '258 Ash St, Around, USA', '012345678901', 'ABCDE1234B');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (22, 'Tina Van', 30, '333-444-5555', '456 Pine St, Back, USA', '123456789012', 'FGHIJ2345C');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (23, 'Ursula Wright', 26, '222-111-0000', '321 Cedar St, Inside, USA', '234567890123', 'KLMNO3456D');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (24, 'Victor Young', 35, '666-777-8888', '987 Birch St, Outside, USA', '345678901234', 'PQRST4567E');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (25, 'Wendy Zhang', 27, '999-888-7777', '654 Maple St, Down, USA', '456789012345', 'UVWXY5678F');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (26, 'Xander Adams', 22, '555-444-3333', '258 Chestnut St, Up, USA', '567890123456', 'ABCDE6789G');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (27, 'Yvonne Bailey', 34, '222-333-4444', '789 Spruce St, Left, USA', '678901234567', 'FGHIJ7890H');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (28, 'Zachary Carter', 29, '444-555-6666', '321 Walnut St, Right, USA', '789012345678', 'KLMNO8901I');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (29, 'Angela Davis', 32, '111-222-3333', '654 Ash St, Near, USA', '890123456789', 'PQRST9012J');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (30, 'Brian Edwards', 28, '555-666-7777', '258 Pine St, Far, USA', '901234567890', 'UVWXY0123K');
+
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (31, 'Clara Fisher', 31, '777-888-9999', '321 Cedar St, Forward, USA', '012345678901', 'ABCDE1234L');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (32, 'David Gonzalez', 25, '333-444-5555', '654 Birch St, Backward, USA', '123456789012', 'FGHIJ2345M');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (33, 'Eva Harris', 30, '222-111-0000', '789 Maple St, Over, USA', '234567890123', 'KLMNO3456N');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (34, 'Felix Ibarra', 36, '666-777-8888', '456 Chestnut St, Under, USA', '345678901234', 'PQRST4567O');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (35, 'Gina Johnson', 29, '999-888-7777', '321 Ash St, Above, USA', '456789012345', 'UVWXY5678P');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (36, 'Hector Kim', 33, '555-444-3333', '654 Maple St, Near, USA', '567890123456', 'ABCDE6789Q');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (37, 'Irene Lopez', 26, '222-333-4444', '789 Oak St, Far, USA', '678901234567', 'FGHIJ7890R');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (38, 'James Mitchell', 35, '444-555-6666', '159 Pine St, South, USA', '789012345678', 'KLMNO8901S');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (39, 'Karen Nelson', 29, '111-222-3333', '321 Cedar St, East, USA', '890123456789', 'PQRST9012T');
+
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (40, 'Leo Ortiz', 31, '555-666-7777', '654 Birch St, West, USA', '901234567890', 'UVWXY0123U');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (41, 'Mia Perez', 28, '777-888-9999', '987 Elm St, Upwards, USA', '012345678901', 'ABCDE1234V');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (42, 'Noah Robinson', 24, '333-444-5555', '258 Spruce St, Downwards, USA', '123456789012', 'FGHIJ2345W');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (43, 'Olivia Scott', 30, '222-111-0000', '321 Walnut St, Right, USA', '234567890123', 'KLMNO3456X');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (44, 'Paul Thomas', 37, '666-777-8888', '654 Maple St, Left, USA', '345678901234', 'PQRST4567Y');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (45, 'Quinn Underwood', 29, '999-888-7777', '159 Cedar St, Overthere, USA', '456789012345', 'UVWXY5678Z');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (46, 'Rita Vasquez', 32, '555-444-3333', '321 Birch St, Backward, USA', '567890123456', 'ABCDE6789A');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (47, 'Sam Williams', 26, '222-333-4444', '789 Pine St, Forward, USA', '678901234567', 'FGHIJ7890B');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (48, 'Tina Xu', 34, '444-555-6666', '654 Maple St, Under, USA', '789012345678', 'KLMNO8901C');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (49, 'Victor Young', 30, '111-222-3333', '258 Ash St, Over, USA', '890123456789', 'PQRST9012D');
+INSERT INTO person (ID, name, age, phone_number, full_address, Adhaar_CARD, PAN) VALUES (50, 'Wendy Zhang', 29, '555-666-7777', '321 Oak St, Up, USA', '901234567890', 'UVWXY0123E');

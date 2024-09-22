@@ -28,7 +28,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok:1.18.34'
 
 	// MySQL Driver (example)
-	runtimeOnly 'mysql:mysql-connector-java'
+	//runtimeOnly 'mysql:mysql-connector-java'
 
 	// PostgreSQL Driver (example)
 	runtimeOnly 'org.postgresql:postgresql'

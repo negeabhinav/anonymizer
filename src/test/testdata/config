@@ -1,0 +1,62 @@
+[
+    {
+    "rule_name": "Rule_01",
+    "table_name": "PERSON",
+    "column_name": "ADHAAR_CARD",
+    "pk_column_name": "ID",
+    "method":
+        {
+            "anon_method_name": "Random_String",
+            "anon_method_desc": "Generate random string value",
+            "active": true
+        }
+    },
+	{
+    "rule_name": "Rule_02",
+    "table_name": "PERSON",
+    "column_name": "NAME",
+    "pk_column_name": "ID",
+    "method":
+        {
+            "anon_method_name": "Random_Name",
+            "anon_method_desc": "Generate random Name value",
+            "active": true
+        }
+    },
+	{
+    "rule_name": "Rule_03",
+    "table_name": "PERSON",
+    "column_name": "AGE",
+    "pk_column_name": "ID",
+    "method":
+        {
+            "anon_method_name": "Random_Age",
+            "anon_method_desc": "Generate random Age value between 10 and 90",
+            "active": true
+        }
+    },
+	{
+    "rule_name": "Rule_04",
+    "table_name": "PERSON",
+    "column_name": "FULL_ADDRESS",
+    "pk_column_name": "ID",
+    "method":
+        {
+            "anon_method_name": "Random_Address",
+            "anon_method_desc": "Generate random Address",
+            "active": true
+        }
+    },
+	{
+    "rule_name": "Rule_05",
+    "table_name": "PERSON",
+    "column_name": "PAN",
+    "pk_column_name": "ID",
+    "method":
+        {
+            "anon_method_name": "Random_String",
+            "anon_method_desc": "Generate random String",
+            "active": true
+        }
+    }
+]
